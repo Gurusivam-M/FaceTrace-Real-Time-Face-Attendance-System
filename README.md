@@ -1,98 +1,64 @@
-🎯 FaceTrace – Real-Time Face Attendance System
+# FaceTrace – Real-Time Face Attendance System
 
-FaceTrace is a real-time face recognition–based attendance management system that automates the traditional attendance process using a live camera feed. It leverages computer vision techniques to detect, recognize, and record attendance accurately and efficiently.
+*FaceTrace* is a real-time face recognition–based attendance management system that automates attendance using a live camera feed. It detects and recognizes faces and records attendance with accurate date and time, reducing manual effort and proxy attendance.
 
-🚀 Features
+---
 
-📸 Real-time face detection using webcam
+## ✨ Features
 
-🧑 Face registration with multiple image samples
+- Real-time face detection using webcam  
+- Face registration with multiple samples  
+- Face recognition using *LBPH algorithm*  
+- Automatic attendance marking with timestamp  
+- Attendance stored in *CSV format*  
+- Simple and interactive GUI  
 
-🤖 Face recognition using LBPH algorithm
+---
 
-🕒 Automatic attendance marking with date & time
+## 🛠 Tech Stack
 
-📁 Attendance stored securely in CSV format
+- **Language:** Python  
+- **Libraries:** OpenCV, NumPy, Pillow, CustomTkinter  
+- **Algorithms Used:**  
+  - *Haar Cascade* – Face Detection  
+  - *LBPH (Local Binary Patterns Histograms)* – Face Recognition  
 
-🖥️ User-friendly GUI built with CustomTkinter
-
-🛠️ Technologies Used
-
-Programming Language: Python
-
-Libraries & Frameworks:
-
-OpenCV
-
-NumPy
-
-Pillow
-
-CustomTkinter
-
-Algorithms:
-
-Haar Cascade (Face Detection)
-
-LBPH – Local Binary Patterns Histograms (Face Recognition)
-
-📂 Project Structure
-FaceTrace/
-│
-├── faces/                 # Stored face images
-├── attendance.csv         # Attendance records
-├── trained_model.yml      # Trained face recognition model
-├── label_map.txt          # Mapping of labels to names
-├── main.py                # Main application file
-├── train_faces.py         # Face training script
-└── README.md              # Project documentation
-
-⚙️ Installation
-
-Clone the repository:
-
-git clone https://github.com/your-username/FaceTrace.git
+---
 
 
-Install required dependencies:
+## 🧪 How It Works
 
-pip install opencv-python customtkinter pillow numpy
+- Register new users by capturing face images  
+- Train the model using stored face data  
+- Detect and recognize faces in real time  
+- Automatically mark attendance with date and time  
+
+---
+
+## 🎯 Use Cases
+
+- Educational institutions  
+- Offices and organizations  
+- Secure attendance management systems  
+
+---
+
+## 🔮 Future Enhancements
+
+- Database integration (*MySQL / SQLite*)  
+- Cloud-based attendance storage  
+- Web or mobile interface  
+- Deep learning–based face recognition  
+
+---
+
+## 👤 Author
+
+**Gurusivam**  
+*BE Computer Science Engineering*
 
 
-Run the application:
 
-python main.py
-
-🧪 How It Works
-
-Register a new face by capturing multiple samples
-
-Train the model using stored face images
-
-Detect and recognize faces in real time
-
-Automatically mark attendance with timestamp
-
-🎓 Use Cases
-
-Educational institutions
-
-Offices and organizations
-
-Secure attendance management systems
-
-🔮 Future Enhancements
-
-Database integration (MySQL / SQLite)
-
-Cloud-based attendance storage
-
-Face mask detection
-
-Mobile or web-based interface
-
-👨‍💻 Author
-
+👤 Author
 Gurusivam
 BE Computer Science Engineering
-📌 Face Recognition | Computer Vision | Python
